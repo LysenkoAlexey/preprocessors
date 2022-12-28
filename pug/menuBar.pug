@@ -1,0 +1,26 @@
+mixin createMenuBar (title)
+	.menuFlex
+		.menuItem
+			if title == 'Главная страница'
+				a(href="index.html")
+					span CSS
+			else
+				a(href="index.html") CSS
+		.menuItem
+			a(href="") Синтаксис CSS
+		.menuItem
+			a(href="") Вставка CSS
+		.menuItem
+			a(href="") CSS текст
+		.menuItem
+			if title == 'CSS шрифт'
+				a(href="CSSШрифт.html")
+					span CSS шрифт
+			else
+				a(href="CSSШрифт.html") CSS шрифт
+		.menuItem
+			if title == 'Блоки'
+				a(href="Блоки.html")
+					span Блоки
+			else
+				a(href="Блоки.html") Блоки
